@@ -1,0 +1,30 @@
+{
+  "name": "ts-simple-interfaces",
+  "version": "0.1.0",
+  "description": "This library attempts to define a set of simplified interfaces for typescript that are compatible with common tools in the ecosystem.",
+  "author": "Kael Shipman<kael.shipman@gmail.com>",
+  "homepage": "https://github.com/kael-shipman/ts-simple-interfaces",
+  "bugs": {
+    "url": "https://github.com/kael-shipman/ts-simple-interfaces/issues"
+  },
+  "contributors": "https://github.com/kael-shipman/ts-simple-interfaces/graphs/contributors",
+  "main": "dist/index.js",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "prepublish": "tsc"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kael-shipman/ts-simple-interfaces.git"
+  },
+  "dependencies": {
+    "@openfinance/http-errors": "^1.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^10.14.12",
+    "typescript": "^3.5.3"
+  }
+}
